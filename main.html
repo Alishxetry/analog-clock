@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="clock">
+        <div class="digit">
+            <span style="top: 10px;">12</span>
+            <span style="top: 50%; right: 10px; transform: translate(0, -50%);">3</span>
+            <span style="bottom: 10px; left: 50%; transform: translateX(0, -50%);">6</span>
+            <span style="top: 50%; left: 10px; transform: translate(0, -50%);">9</span>
+        </div>
+        <div class="hand hour" id="hour"></div>
+        <div class="hand minute" id="minute"></div>
+        <div class="hand second" id="second"></div>
+        <div class="center"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
