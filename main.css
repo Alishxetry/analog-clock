@@ -18,6 +18,29 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.brand{
+    position: absolute;
+    font-size: 26px;
+    font-weight: bold;
+    color: #383737;
+    top: 25%;
+    left: 35%;
+    text-decoration: solid;
+    opacity: 85%;
+}
+
+.aurthor{
+    
+    position: absolute;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #383737;
+    top: 30%;
+    left: 35%;
+    text-decoration: solid;
+    opacity: 60%;
+}
+
 .num {
     position: absolute;
     font-size: 24px;
